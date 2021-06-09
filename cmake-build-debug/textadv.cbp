@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="textadv"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="H:/C++/textadv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="textadv">
+				<Option output="H:/C++/textadv/cmake-build-debug/textadv.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/C++/textadv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 textadv"/>
+					<CompileFile command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="textadv/fast">
+				<Option output="H:/C++/textadv/cmake-build-debug/textadv.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="H:/C++/textadv/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-X64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 textadv/fast"/>
+					<CompileFile command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="H:/C++/textadv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="H:/C++/textadv/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-X64/mingw32/bin/mingw32-make.exe -f &quot;H:/C++/textadv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="H:/C++/textadv/FileHandle.cpp">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/FileHandle.h">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/GameMap.cpp">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/GameMap.h">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/GameObject.cpp">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/GameObject.h">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/GameObjects.cpp">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/GameObjects.h">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/Room.cpp">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/Room.h">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/State.cpp">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/State.h">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/main.cpp">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/strings.h">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/wordwrap.cpp">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/wordwrap.h">
+			<Option target="textadv"/>
+		</Unit>
+		<Unit filename="H:/C++/textadv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
